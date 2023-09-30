@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "devstart": "nodemon server.js",
-    "fronendt":"npm start",
-    "dev": "concurrently \"npm run fronendt\" \"node server.js\""
+    "frontend":"npm start --prefix ",
+    "dev": "concurrently \"npm run frontend\" \"node server.js\""
   },
   "author": "Prehans Gupta",
   "license": "ISC",
